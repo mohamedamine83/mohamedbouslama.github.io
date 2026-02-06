@@ -1,6 +1,6 @@
 # AmeliaPilou.github.io
 Portfolio de Mohamed-Amine Bouslama, étudiant en BTS SIO
-# Portfolio de Amélie Pilou
+# Portfolio de Mohamed-Amine Bouslama
 
 ### Objectifs : 
 ##### 1. Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
