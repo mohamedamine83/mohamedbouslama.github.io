@@ -12,10 +12,13 @@ body { padding-top: 50px; }
     border-radius: 50%;
     overflow: hidden;
     padding: 5px;
-    background: #eee;
+    background: #74954e;
     display: inline-block;
 }
-#cv-photo img { width: 160px; height: 160px; border-radius: 50%; }
+#cv-photo img { width: 160px; height: 160px; border-radius: 50%; 
+ background-color: #74954e;
+}
+
 
 #cv-intro h1 {
     margin: 0;
@@ -23,9 +26,10 @@ body { padding-top: 50px; }
     font-size: 2.4em;
     font-weight: 700;
     letter-spacing: -1px;
+    
 }
 
-#cv-intro h1 span { color: rgb(226,0,26); }
+#cv-intro h1 span { color: #74954e; }
 
 #cv-intro::after {
     background: url('images/ligne.png'); /* Dossier "images" est un
@@ -35,13 +39,14 @@ body { padding-top: 50px; }
     margin-top: 15px;
     content: '';
     display: block;
+    
 }
 
 /****************************************
 *     Rubriques
 ****************************************/
 .rubrique { margin-bottom: 15px; }
-.rubrique h2 { color: rgb(226,0,26); }
+.rubrique h2 { color: #74954e; }
 .rubrique h2::before{ margin-right: 5px; }
 .rubrique p{ font-size: 1.3em; line-height: 1.5em; }
 
@@ -50,8 +55,8 @@ body { padding-top: 50px; }
 ******************************************/
 #parcours { margin-top: 20px; position: relative; padding: 1em 0; list-style: none; }
 #parcours::before { width: 5px; height: 100%; position: absolute; left: 7.8px; top: 0; 
-                    display: block; background: linear-gradient(to bottom, #ffffff 0%, 
-                        #E2001A 7%, #E2001A, #ffffff 100%); content:""; }
+                    display: block; background: linear-gradient(to bottom, #74954e 0%, 
+                        #74954e 7%, #74954e, #74954e 100%); content:""; }
 #parcours li { width: 100%; z-index: 2; position: relative; float: left; }
 #parcours .date .glyphicon-record::before { background: #FFFFFF; color: #555; }
 #parcours .date { width: 75px; background-color: rgba(0, 0, 0, 0); font-size: 1.5em; 
@@ -134,5 +139,5 @@ body { padding-top: 50px; }
 *     Passions
 ******************************************/
 .passion{ color: #fff; display: inline-block; margin-right: 5px;
-          margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #000;
+          margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #350;
           position: relative; font-size: 1.2em; border-radius: 10px; }
